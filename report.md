@@ -11,7 +11,7 @@ It seems that student3's submission may not have a compile error, or there is an
 #### Student response: 
 <img width="305" alt="image" src="https://github.com/wangharold001/cse15l-report5/assets/60553459/01132c95-51c1-41a5-888e-9a88fbf0b1fb">
 
-Here is what the terminal is returning while grading student3. It appears that the student didn't import the Scanner class, which explains why the script raised a compile error. However, the script should "echo "$submission_dir: Compile error" > result.txt" by this point, which it doesn't. Here's the if-block in my bash script: 
+Here is what the terminal is returning while grading student3. It appears that the student didn't import the Scanner class, which explains why the script raised a compile error. However, the script should "echo "$submission_dir: Compile error" > result.txt" by this point, which it doesn't. Here's the if-block in my bash script testing for a compile error: 
 ##### "if [ $? -e !"0" ]"
 
 #### Instructor response:
